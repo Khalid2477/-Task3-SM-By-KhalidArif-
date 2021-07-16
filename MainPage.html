@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+</body>
+<pre>
+  ----
+  Summer Training project 2021
+  Done by: Khalid Walid Arif
+  ----
+  </pre>
+<A HREF="task1.html">Task 1</A>
+<br>
+</br>
+<A HREF="Task2.html">Task 2</A>
+<br>
+</br>
+
+
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "1543fe3c-96f9-44d7-ba91-4de96aeadcd0", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "4ecc2633-4f57-4142-9865-8782eb1909fe", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</html>
